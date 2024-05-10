@@ -74,7 +74,7 @@ header nav ul li a:hover {
     background-color: whitesmoke;
 }
 #contacto {
-    height: 90vh;
+    height: 80vh;
 }
 
 #proyectos h2,
@@ -173,14 +173,21 @@ button:hover {
     background-color: goldenrod;
 }
 
+.separador {
+    height: 0;
+    width: 0;
+    border-right: 98.9vw solid transparent;
+    border-bottom: 16.9vw solid rgb(48, 55, 61);
+}
+
 footer {
     background-color: rgb(48, 55, 61);
-    height: 10vh;
+    height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
     color: whitesmoke;
-}
+} 
 
 @media (max-width: 880px) {
     #banner .sobre_mi {
